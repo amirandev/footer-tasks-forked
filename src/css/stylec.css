@@ -9,7 +9,6 @@ body {
   max-width: 1200px;
   width: 100%;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 .description {
   margin-left: 240px;
@@ -56,4 +55,16 @@ iframe {
 .email {
   color: white;
   margin-left: 42px;
+}
+.last {
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+  margin-bottom: 40px;
+  margin-left: 240px;
+}
+.last-last {
+  display: flex;
+  gap: 10px;
 }

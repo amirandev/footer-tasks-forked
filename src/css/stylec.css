@@ -9,6 +9,7 @@ body {
   max-width: 1200px;
   width: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 .description {
   margin-left: 240px;
@@ -67,4 +68,5 @@ iframe {
 .last-last {
   display: flex;
   gap: 10px;
+  margin-right: -240px;
 }
